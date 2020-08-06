@@ -1,7 +1,7 @@
 {
   "name": "storybook",
   "version": "1.0.0",
-  "description": "Exportable Storybook config",
+  "description": "Exportable Storybook preset and config",
   "main": "index.js",
   "scripts": {
     "storybook": "start-storybook"
