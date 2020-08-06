@@ -1,0 +1,42 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "Exportable Storybook config",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loic-prosi/storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loic-prosi/storybook/issues"
+  },
+  "homepage": "https://github.com/loic-prosi/storybook#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-a11y": "^5.3.19",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-backgrounds": "^5.3.19",
+    "@storybook/addon-centered": "^5.3.19",
+    "@storybook/addon-events": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-jest": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-notes": "^5.3.19",
+    "@storybook/addon-options": "^5.3.19",
+    "@storybook/addon-storysource": "^5.3.19",
+    "@storybook/addon-viewport": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "style-loader": "^1.2.1"
+  }
+}
