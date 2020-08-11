@@ -46,24 +46,5 @@ function webpack(webpackConfig = {}, options = {}) {
   };
 }
 
-// Addons API
-function addons(entry = []) {
-  return [
-    require.resolve("@storybook/addon-actions/register"),
-    require.resolve("@storybook/addon-links/register"),
-    require.resolve("@storybook/addon-a11y/register"),
-    require.resolve("@storybook/addon-backgrounds/register"),
-    require.resolve("@storybook/addon-info"),
-    require.resolve("@storybook/addon-knobs/register"),
-    require.resolve("@storybook/addon-notes/register"),
-    require.resolve("@storybook/addon-options/register"),
-    require.resolve("@storybook/addon-storysource/register"),
-    require.resolve("@storybook/addon-viewport/register"),
-    require.resolve("@storybook/addon-events/register"),
-    require.resolve("@storybook/addon-centered"),
-    require.resolve("@storybook/addon-jest/register")
-  ];
-}
-
 // Only exports those two APIS, check for documentation for more API endpoints
-module.exports = { webpack, addons };
+module.exports = { webpack };
