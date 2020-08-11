@@ -46,5 +46,15 @@ function webpack(webpackConfig = {}, options = {}) {
   };
 }
 
+// Addons API
+function addons(entry = []) {
+  return [
+    require.resolve("@storybook/addon-actions/register"),
+    require.resolve("@storybook/addon-essentials/register"),
+    require.resolve("@storybook/addon-links/register"),
+    require.resolve("@storybook/addon-a11y/register")
+  ];
+}
+
 // Only exports those two APIS, check for documentation for more API endpoints
-module.exports = { webpack };
+module.exports = { webpack, addons };
