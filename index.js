@@ -50,9 +50,12 @@ function webpack(webpackConfig = {}, options = {}) {
 function addons(entry = []) {
   return [
     require.resolve("@storybook/addon-actions/register"),
+    require.resolve("@storybook/addon-backgrounds/register"),
+    require.resolve("@storybook/addon-controls/register"),
+    require.resolve("@storybook/addon-docs/register"),
     require.resolve("@storybook/addon-essentials/register"),
     require.resolve("@storybook/addon-links/register"),
-    require.resolve("@storybook/addon-a11y/register")
+    require.resolve("@storybook/addon-viewport/register")
   ];
 }
 
