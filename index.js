@@ -49,7 +49,6 @@ function webpack(webpackConfig = {}, options = {}) {
 // Addons API
 function addons(entry = []) {
   return [
-    require.resolve("@storybook/addon-actions/register"),
     require.resolve("@storybook/addon-essentials"),
     require.resolve("@storybook/addon-links/register")
   ];
