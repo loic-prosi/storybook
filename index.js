@@ -54,8 +54,7 @@ function addons(entry = []) {
     require.resolve("@storybook/addon-controls/register"),
     require.resolve("@storybook/addon-docs/register"),
     require.resolve("@storybook/addon-essentials"),
-    require.resolve("@storybook/addon-links/register"),
-    require.resolve("@storybook/addon-viewport/register")
+    require.resolve("@storybook/addon-links/register")
   ];
 }
 
